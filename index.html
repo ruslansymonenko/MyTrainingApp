@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Quicksand&family=Square+Peg&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>My training</title>
+</head>
+<body>
+    <div class="container">
+        <header class="app__header">
+            <div class="header__date" id="mainDate"></div>
+            <div class="header_header">
+                <img class="page_logo1" src="img/pngegg.png"></img>
+                <div class="header_main">My training</div>
+                <img class="page_logo2" src="img/pngegg.png"></img>
+            </div>
+            <div class="header__time" id="mainTime"></div>
+        </header>
+
+        <section class="app__body">
+            <div class="body__header">Current Training</div>
+            <div class="body__main">
+                <div class="approach__info">
+                    <div class="exercise">
+                        <input type="text" value="" class="input__exercise" id="inputExercise">
+                        <div class="input__exercise__header">exercise</div>
+                    </div>
+                    <div class="approach">
+                        <input type="text" value="" class="input__approach" id="inputApproach">
+                        <div class="input__approach__header">approach</div>
+                    </div>
+                    <div class="quantity">
+                        <input type="text" value="" class="input__quantity"
+                        id="inputQuantity">
+                        <div class="input__quantity__header">quantity</div>
+                    </div>
+                </div>
+                <button class="add__info" id="addBtn">add</button>
+                <div class="training__info" id="trainingInfo"></div>
+                <button class="save__info" id="saveBtn">save</button>
+            </div>
+        </section>
+
+        <footer class="app__footer">
+            <div class="footer__timer"></div>
+            <div class="footer__list" id="footerList">
+            </div>
+        </footer>
+    </div>
+    
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
